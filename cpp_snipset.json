@@ -1,0 +1,102 @@
+{
+    "CodeForces Template": {
+        "prefix": "cf_template",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "",
+            "using namespace std;",
+            "",
+            "typedef long long i64;",
+            "",
+            "void solve() {",
+            "    return;",
+            "}",
+            "",
+            "signed main() {",
+            "    std::ios::sync_with_stdio(false);",
+            "    std::cin.tie(nullptr);",
+            "",
+            "    int test_cases = 1;",
+            "    cin >> test_cases;",
+            "    for (; test_cases--;) {",
+            "        solve();",
+            "    }",
+            "}"
+        ],
+        "description": "C++ Competitive Programming Template"
+    },
+    "ATCoder Template": {
+        "prefix": "at_template",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "",
+            "using namespace std;",
+            "",
+            "typedef long long i64;",
+            "",
+            "void solve() {",
+            "    return;",
+            "}",
+            "",
+            "signed main() {",
+            "    std::ios::sync_with_stdio(false);",
+            "    std::cin.tie(nullptr);",
+            "    solve();",
+            "}"
+        ],
+        "description": "C++ Competitive Programming Template"
+    },
+    "Debugger": {
+        "prefix": "template_debug",
+        "body": [
+            "#ifdef LOCAL",
+            "#include \"debug.h\"",
+            "#else",
+            "#define debug(...)",
+            "#endif"
+        ]
+    },
+    "Functor": {
+        "prefix": "functor",
+        "body": [
+            "struct comp { ",
+            "    bool operator()(int a, int b) const { return a < b; } ",
+            "};"
+        ]
+    },
+    "Local Test": {
+        "prefix": "local_test",
+        "body": [
+            "#ifdef LOCAL",
+            "freopen(\"input.txt\", \"r\", stdin);",
+            "freopen(\"output.txt\", \"w\", stdout);",
+            "#endif"
+        ]
+    },
+    "chmax": {
+        "prefix": "chmax",
+        "body": [
+            "bool chmax(${1:typename}& a, ${1:typename} b){ return b > a ? a = b, true : false; }"
+        ]
+    },
+    "chimin": {
+        "prefix": "chmin",
+        "body": [
+            "bool chmin(${1:typename}& a, ${1:typename} b){ return b < a ? a = b, true : false; }"
+        ]
+    },
+    "qpow": {
+        "prefix": "qpow",
+        "body": [
+            "template<class T>",
+            "constexpr T power(T a, u64 b, T res = 1) {",
+            "    for (; b != 0; b /= 2, a *= a) { ",
+            "        if (b & 1) {",
+            "            res *= a;",
+            "        }",
+            "    }",
+            "    return res;",
+            "}"
+        ]
+    }
+}
