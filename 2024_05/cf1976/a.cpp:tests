@@ -1,0 +1,18 @@
+[
+	{
+		"test": "5\n4\n12ac\n5\n123wa\n9\nallllmost\n5\nac123\n6\n011679\n"
+	},
+	{
+		"correct_answers":
+		[
+			"yes"
+		],
+		"test": "1\n4\n123a\n"
+	},
+	{
+		"test": "1\n5\n0abc\n"
+	},
+	{
+		"test": "1\n4\nzabc\n"
+	}
+]

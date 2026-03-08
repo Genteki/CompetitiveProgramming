@@ -1,0 +1,7 @@
+.cph/*
+*.out
+.vscode
+*.prob
+*.bin
+.DS_Store
+__pycache__/*

@@ -1,0 +1,58 @@
+[
+	{
+		"correct_answers":
+		[
+			"? C A\n? C B\n! BCA"
+		],
+		"test": "3 10\n<\n>\n"
+	},
+	{
+		"correct_answers":
+		[
+			"? E A\n? E B\n? E C\n? E D\n? D A\n? D B\n? D C\n? A B\n? A C\n? C B\n! DBCAE"
+		],
+		"test": "5 10\n>\n>\n>\n>\n<\n<\n<\n>\n>\n>\n"
+	},
+	{
+		"correct_answers":
+		[
+			"? F A\n? F B\n? F C\n? F D\n? F E\n? D B\n? D C\n? B C\n? A E\n! DBCFAE"
+		],
+		"test": "6 20\n<\n>\n>\n>\n<\n<\n<\n<\n<\n"
+	},
+	{
+		"correct_answers":
+		[
+			"? F A\n? F B\n? F C\n? F D\n? F E\n? E A\n? E B\n? E C\n? E D\n? D A\n? D B\n? D C\n? C A\n? C B\n? B A\n! ABCDEF"
+		],
+		"test": "6 20\n>\n>\n>\n>\n>\n>\n>\n>\n>\n>\n>\n>\n>\n>\n>\n"
+	},
+	{
+		"correct_answers":
+		[
+			"? F A\n? F B\n? F C\n? F D\n? F E\n? A B\n? A C\n? A D\n? A E\n? E B\n? E C\n? E D\n? B C\n? B D\n? D C\n! FEDCBA"
+		],
+		"test": "6 10\n<\n<\n<\n<\n<\n>\n>\n>\n>\n<\n<\n<\n>\n>\n<\n"
+	},
+	{
+		"correct_answers":
+		[
+			"? B A\n! AB"
+		],
+		"test": "2 5\n>\n"
+	},
+	{
+		"correct_answers":
+		[
+			"? B A\n! BA"
+		],
+		"test": "2 5\n<\n"
+	},
+	{
+		"correct_answers":
+		[
+			"? C A\n? C B\n! ACB"
+		],
+		"test": "3 6\n>\n<\n"
+	}
+]

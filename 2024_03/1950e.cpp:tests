@@ -1,0 +1,17 @@
+[
+	{
+		"correct_answers":
+		[
+			"1\n4\n13\n2\n10"
+		],
+		"test": "5\n4\nabaa\n4\nabba\n13\nslavicgslavic\n8\nhshahaha\n20\nstormflamestornflame\n"
+	},
+	{
+		"correct_answers":
+		[
+			"1\n1\n1",
+			"1\n1\n1\n1\n3\n5"
+		],
+		"test": "6\n1\nx\n2\nxa\n4\nxaaa\n3\naxa\n9\naxcaxcaxb\n15\nfalmefalmxfalme\n\n\n"
+	}
+]

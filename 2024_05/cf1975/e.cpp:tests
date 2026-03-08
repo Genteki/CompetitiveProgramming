@@ -1,0 +1,30 @@
+[
+	{
+		"correct_answers":
+		[
+			"No\nNo\nYes\nYes\nNo",
+			"Yes\nNo\nYes\nYes\nYes\nYes\nNo\nNo\nYes",
+			"no\nno\nyes\nyes\nno"
+		],
+		"test": "2\n2 1\n1 0\n1 2\n1\n5 4\n1 0 0 0 0\n1 2\n1 3\n1 5\n3 4\n4\n3\n2\n5\n",
+		"uncorrect_answers":
+		[
+			"yes\nno\nyes\nyes\nyes\nyes\nno\nno\nyes"
+		]
+	},
+	{
+		"correct_answers":
+		[
+			"yes\nno\nyes\nyes\nyes\nyes\nno\nno\nyes",
+			"Yes\nNo\nYes\nYes\nYes\nYes\nNo\nNo\nYes"
+		],
+		"test": "4\n5 3\n1 1 1 1 1\n3 5\n2 5\n3 4\n1 5\n1\n1\n1\n4 4\n0 0 0 0\n1 2\n2 3\n1 4\n1\n2\n3\n2\n1 1\n1\n1\n1 1\n0\n1\n"
+	},
+	{
+		"correct_answers":
+		[
+			"no\nno\nyes\nyes\nno"
+		],
+		"test": "2\n2 1\n1 0\n1 2\n1\n5 4\n1 0 0 0 0\n1 2\n1 3\n1 5\n3 4\n4\n3\n2\n5\n"
+	}
+]

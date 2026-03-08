@@ -1,0 +1,27 @@
+[
+	{
+		"correct_answers":
+		[
+			"4\nAAAB"
+		],
+		"test": "5\n01100\n",
+		"uncorrect_answers":
+		[
+			"11\nA\u0000B"
+		]
+	},
+	{
+		"correct_answers":
+		[
+			"10\nAAAABBBAAB"
+		],
+		"test": "5\n01010\n"
+	},
+	{
+		"correct_answers":
+		[
+			"14\nAAAAAABBBBAAAB"
+		],
+		"test": "6\n011011\n"
+	}
+]

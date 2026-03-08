@@ -1,0 +1,16 @@
+[
+	{
+		"correct_answers":
+		[
+			"YES\nYES\nYES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\nYES"
+		],
+		"test": "11\n121\n1\n14641\n12221\n10110\n100000\n99\n112\n2024\n12421\n1001\n"
+	},
+	{
+		"correct_answers":
+		[
+			"YES\nNO"
+		],
+		"test": "3\n0\n1\n12111\n\n"
+	}
+]
